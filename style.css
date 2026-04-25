@@ -1,0 +1,68 @@
+/* General Body Styles */
+body {
+  background-color: #000;
+  color: #fff;
+  /* A modern serif system font stack */
+  font-family:
+    Iowan Old Style,
+    "Apple Garamond",
+    Baskerville,
+    "Times New Roman",
+    "Droid Serif",
+    Times,
+    "Source Serif Pro",
+    serif;
+  margin: 0;
+}
+
+/* Main Article Container */
+#scrolly-article {
+  max-width: 100ch;
+  margin: 0 auto;
+  padding: 5vh 1rem;
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(3rem, 8vw, 4.3rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 6vw, 2.8rem);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+p {
+  font-size: clamp(1.6rem, 4vw, 1.8rem);
+  line-height: 1.6;
+}
+
+.lede {
+  font-size: clamp(1.9rem, 4vw, 2.2rem);
+}
+
+.publish-date {
+  font-size: clamp(1.4rem, 4vw, 1.4rem);
+  font-weight: 200; /* Request a 'Light' font weight */
+}
+
+/* images */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+figure {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+figcaption {
+  font-style: italic;
+  padding: 10px;
+  color: #bfbfbf;
+}
