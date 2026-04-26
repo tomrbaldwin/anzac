@@ -36,6 +36,12 @@ h2 {
   font-weight: 500;
 }
 
+h3 {
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  line-height: 1.2;
+  font-weight: 500;
+}
+
 p {
   font-size: clamp(1.6rem, 4vw, 1.8rem);
   line-height: 1.6;
@@ -64,7 +70,15 @@ figure {
 figcaption {
   font-style: italic;
   padding: 10px;
-  color: #bfbfbf;
+  color: #e6e6e6;
+}
+
+.quote {
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
+  line-height: 1.4;
+  font-style: italic;
+  margin: 2rem auto;
+  max-width: 80ch;
 }
 
 /* --- Map Scrollytelling Styles --- */
@@ -72,8 +86,8 @@ figcaption {
 /* This wrapper contains the sticky map and the scrolling text */
 #map-wrapper {
   position: relative;
-  /* The height is the number of steps * 100vh. (7 steps = 700vh) */
-  height: 700vh;
+  /* The height is the number of steps * 100vh. (5 steps = 500vh) */
+  height: 550vh;
 }
 
 /* The map becomes sticky within the wrapper */
@@ -101,8 +115,10 @@ figcaption {
   justify-content: center;
 }
 
-/* The visible text box that 'hugs' the content */
 .scrolly-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;

@@ -37,12 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
       pitch: 45,
       bearing: -20,
     },
-    step6: {
-      center: [34.7918, 31.9935], // Rishon LeZion
-      zoom: 13,
-      pitch: 45,
-      bearing: -20,
-    },
   };
 
   // --- INITIALIZATION ---
