@@ -17,7 +17,7 @@ body {
 
 /* Main Article Container */
 #scrolly-article {
-  max-width: 100ch;
+  max-width: 70ch;
   margin: 0 auto;
   padding: 5vh 1rem;
 }
@@ -43,12 +43,12 @@ h3 {
 }
 
 p {
-  font-size: 1rem; /* Standard paragraph size, 16px */
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
 .lede {
-  font-size: 1.25rem; /* Slightly larger for the intro paragraph */
+  font-size: 1.25rem;
 }
 
 .publish-date {
@@ -147,7 +147,7 @@ figcaption {
 
 /* Style for the text that comes after the map section */
 #scrolly-article-after {
-  max-width: 100ch;
+  max-width: 70ch;
   margin: 0 auto;
   padding: 5vh 1rem;
 }
