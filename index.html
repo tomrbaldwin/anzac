@@ -21,7 +21,12 @@
       </p>
       <p class="publish-date">25 April 2026</p>
       <figure>
-        <img src="assets/anzac-image.avif" alt="ANZAC soldiers in the field" />
+        <img
+          src="assets/anzac-image.avif"
+          alt="ANZAC soldiers in the field"
+          loading="eager"
+          fetchpriority="high"
+        />
         <figcaption>ANZAC War Memorial</figcaption>
       </figure>
       <p>
@@ -89,7 +94,7 @@
             <p>
               ANZAC soldiers were camped just outside Surafen, now known as
               Tzrifin, east of Rison LeZion, a Zionist colony in occupied
-              Palestine, just 50kms north of Gaza.
+              Palestine, just 40kms north of Gaza.
             </p>
           </div>
         </div>
@@ -115,8 +120,8 @@
               they found.
             </p>
             <p>
-              They set alight the homes of villagers and moved on to the next
-              town.
+              They set alight the homes of villagers before moving on to the
+              next town.
             </p>
           </div>
         </div>
@@ -147,8 +152,8 @@
       </p>
       <p>
         O'Brian said, ‘They went through it with the bayonet’ after ‘a good
-        issue of rum’. In the same interview he described the Indigenous people
-        of Palestine as ‘wicked … you would shoot them on sight’.
+        issue of rum’. In the same interview O'Brian described the Indigenous
+        people of Palestine as ‘wicked … you would shoot them on sight’.
       </p>
       <p>
         ANZACs held deep racism toward the Indigenous populations back in
@@ -175,7 +180,10 @@
     </main>
 
     <!-- MapLibre GL JS -->
-    <script src="https://unpkg.com/maplibre-gl@4.1.0/dist/maplibre-gl.js"></script>
-    <script src="script.js"></script>
+    <script
+      src="https://unpkg.com/maplibre-gl@4.1.0/dist/maplibre-gl.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
