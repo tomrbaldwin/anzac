@@ -68,7 +68,7 @@ figure {
   width: 100%;
 }
 figcaption {
-  font-style: italic;
+  /* font-style: italic; */
   padding: 10px;
   color: #e6e6e6;
 }
