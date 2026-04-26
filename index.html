@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MapLibre GL JS CSS -->
+    <link
+      href="https://unpkg.com/maplibre-gl@4.1.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
     <title>The ANZAC's Long History of War Crimes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main id="scrolly-article">
-      <h1>The ANZAC's Long History of War Crimes</h1>
+      <h1>The ANZAC's Long History of War Crimes and Impunity</h1>
       <p class="lede">
         The recent uncovering of serious war crimes committed by ANZAC soldiers
         abroad is not an isolated incident, but a long pattern of murder and
@@ -64,5 +69,114 @@
         north of Gaza.
       </p>
     </main>
+
+    <!-- This wrapper will contain the map and its text, making the map 'sticky' inside it -->
+    <section id="map-wrapper">
+      <!-- Map container that will stick to the top -->
+      <div id="map"></div>
+
+      <!-- Scrollytelling section for map narration -->
+      <div id="map-scrolly">
+        <div class="scrolly-step" id="step1">
+          <div class="scrolly-text-box">
+            <p>
+              After World War 1, ANZAC soldiers were stationed across the
+              region.
+            </p>
+          </div>
+        </div>
+        <div class="scrolly-step" id="step2">
+          <div class="scrolly-text-box">
+            <h3>December 10, 1918</h3>
+            <p>Surafend, Palestine</p>
+          </div>
+        </div>
+        <div class="scrolly-step" id="step3">
+          <div class="scrolly-text-box">
+            <p>
+              At midnight December 9th sergeant P was killed during an attempted
+              robbery near the ANZAC encampment.
+            </p>
+            <p>
+              The killer was never seen, but P’s fellow soldiers suspected,
+              without evidence, that they had fled to the nearby village of
+              Surafend.
+            </p>
+          </div>
+        </div>
+        <div class="scrolly-step" id="step4">
+          <div class="scrolly-text-box">
+            <p>
+              The following night hundreds of ANZACs encircled Surafend and ran
+              riot through the village, bayonetting and beating to death any man
+              they found.
+            </p>
+            <p>
+              They then set alight the homes of villagers and moved on to the
+              next town.
+            </p>
+          </div>
+        </div>
+        <div class="scrolly-step" id="step5">
+          <div class="scrolly-text-box">
+            <p>
+              Varying accounts put the number murdered between 20, and 137
+              according to a soldier who claimed to have counted the dead.
+            </p>
+          </div>
+        </div>
+        <div class="scrolly-step" id="step6">
+          <div class="scrolly-text-box">
+            <p>
+              A subsequent investigation into the massacre ran into a wall of
+              silence. Soldiers refused to participate and no one was held
+              accountable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="scrolly-article-after">
+      <p>
+        Nearly 80 years after the massacre, Australian veteran Edward O’Brian,
+        then 88, who was present at Surafen was recorded in an interview
+        describing the massacre.
+      </p>
+      <p>
+        “They went through it with the bayonet” after “a good issue of rum” ”and
+        they got it”.
+      </p>
+      <p>
+        In the same interview describing the indigenous population as ‘wicked …
+        you would shoot them on sight’.
+      </p>
+      <p>
+        ANZACs were carrying a deeply held racism toward the indigenous
+        populations back in Australia and New Zealand. Official creed to troops
+        described the Indigenous Arabs as “lower in the human scale” and warned
+        against feelings of empathy toward them.
+      </p>
+      <p>
+        The massacre in Surafen constitutes serious international war crimes and
+        in the absence of accountability we have watched them repeated with
+        alarming regularity over the last century.
+      </p>
+      <p>
+        ANZAC deployments have rarely serviced national sovereignty, instead
+        serving foreign Empires in wars of aggression. Perhaps the only war for
+        Australian sovereignty was fought by Indigenous people in the Frontier
+        Wars against the British Empire’s colonial aggressors.
+      </p>
+      <p>
+        The lauding of the ANZAC as a personification of Australian values needs
+        reevaluation if we truely seek high ideals worthy of a national
+        character, rather than a face for nationalistic fervour.
+      </p>
+    </main>
+
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl@4.1.0/dist/maplibre-gl.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
