@@ -144,10 +144,3 @@ figcaption {
     margin: 0; /* Reset margin to allow parent to position it */
   }
 }
-
-/* Style for the text that comes after the map section */
-#scrolly-article-after {
-  max-width: 70ch;
-  margin: 0 auto;
-  padding: 5vh 1rem;
-}
